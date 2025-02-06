@@ -1,0 +1,14 @@
+name: AutoSave
+version: 1.0
+author: MoeLuoYu
+main: xyz.moeluoyu.autosave.Main
+description: 自动保存世界的插件
+commands:
+  autosave:
+    description: 自动保存世界相关命令
+    permission: autosave.use
+    permission-message: 你没有权限使用此命令。
+permissions:
+  autosave.use:
+    description: 允许使用 /autosave 命令
+    default: op
